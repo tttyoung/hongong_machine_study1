@@ -3,6 +3,7 @@
 k-최근접 이웃 클래스 비율=확률?
 <img width="548" height="340" alt="image" src="https://github.com/user-attachments/assets/97eff7ec-16a5-4b77-8aff-7a36a5cbbfe9" />
 ### 데이터 준비
+
 ```python
 import pandas as pd
 fish=pd.read_csv('https://bit.ly/fish_csv_data')
@@ -10,7 +11,7 @@ fish.head()
 ```
 <img width="465" height="214" alt="image" src="https://github.com/user-attachments/assets/1a97bf58-9bbc-4fc7-ad99-fa4c11a72c0e" />
 
-```pyhton
+```python
 # species 제외 열선택, 넘파이 배열로 변환
 fish_input=fish[['Weight','Length','Diagonal','Height','Width']].to_numpy()
 #타겟데이터 만들기
@@ -26,7 +27,7 @@ train_scaled=ss.transform(train_input)
 test_scaled=ss.transform(test_input)
 ```
 
-### 확률 에측
+### 확률 예측
 다중분류 - 타깃 데이터에 2개 이상의 클래스가 포함된 문제<br>
 ```python
 #훈련 후 점수 확인
@@ -49,11 +50,12 @@ print(np.round(proba,decimals=4))
 
 가능한 확률이 적어서 개선 필요<br>
 
-##로지스틱 회귀
+## 로지스틱 회귀
 <img width="726" height="102" alt="image" src="https://github.com/user-attachments/assets/a5b1d29c-164d-449c-92a7-68301f9542a8" />
 z는 확률->0~1이 되어야함.<br>
 시그모이드 함수(로지스틱 함수)를 통해 z는 변환가능<br>
 <img width="553" height="316" alt="image" src="https://github.com/user-attachments/assets/6e81fabe-0367-459e-9688-d2625e9161ca" />
+
 ```python
 #시그모이드 함수 출력
 import numpy as np
