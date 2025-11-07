@@ -11,11 +11,11 @@
 
 적용한 아이디어 : 외부에서 힘을 받지 않는 한 운동 상태를 지속하려는 성질인 ‘관성’ 을 활용함.
 
-![r : 관성계수 , n: 학습률](image.png)
+<img width="334" height="84" alt="image" src="https://github.com/user-attachments/assets/4f1a0556-8e55-4dcc-9c09-151b4bcee756" />
 
 r : 관성계수 , n: 학습률
 
-![image.png](image%201.png)
+<img width="187" height="40" alt="image" src="https://github.com/user-attachments/assets/a0a861d2-db69-41b9-b446-9e94d742306c" />
 
 ### Adagrad
 
@@ -25,7 +25,7 @@ r : 관성계수 , n: 학습률
 
 적용한 아이디어 : 가중치마다 기울기의 제곱합을 누적하여 학습률을 나눔.
 
-![image.png](image%202.png)
+<img width="381" height="177" alt="image" src="https://github.com/user-attachments/assets/d38f7085-6670-44ee-aee3-0d70a7a16234" />
 
 ### RMSProp
 
@@ -35,7 +35,7 @@ r : 관성계수 , n: 학습률
 
 적용한 아이디어 : 이전 step의 기울기를 지수이동평균을 활용해 업데이트해 먼 과거의 기울기 정보를 조금만 반영함.
 
-![gt : t번째 time step까지의 기울기 누적 크기, r : 지수이동평균의 업데이트 계수, e : 분모가 0이 되는 것을 방지하기 위한 아주작은 값 , n: 학습률](image%203.png)
+<img width="405" height="120" alt="image" src="https://github.com/user-attachments/assets/8f9f03ce-823f-4b2a-986c-4a0926cd4653" />
 
 gt : t번째 time step까지의 기울기 누적 크기, r : 지수이동평균의 업데이트 계수, e : 분모가 0이 되는 것을 방지하기 위한 아주작은 값 , n: 학습률
 
@@ -47,7 +47,7 @@ gt : t번째 time step까지의 기울기 누적 크기, r : 지수이동평균�
 
 적용한 아이디어 : 
 
-![image.png](image%204.png)
+<img width="426" height="283" alt="image" src="https://github.com/user-attachments/assets/6cfff3b0-a4b5-433f-b986-1268fc5c224c" />
 
 ### AdamW
 
