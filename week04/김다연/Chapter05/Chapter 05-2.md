@@ -2,16 +2,14 @@
 
 1. **검증 세트 (validation set)**
     1. 테스트 세트를 사용하지 않고 이를 측정하기 위해 **훈련 세트를 또 나눴**을 때의 데이터
-        
-        ![image.png](image.png)
+        ![image.png](https://github.com/user-attachments/assets/ae12eb63-926b-497b-8f5a-f5a6a76ede52)
         
     2. **매개변수를 정할 때** 사용
 
 1. **교차 검증 (cross validation)**
     1. 검증 세트 때문에 훈련 세트 줄음 → 많은 데이터 훈련에 사용할수록 좋은 모델이지만 검증 세트를 너무 조금 남겨 놓으면 검증 점수 불안정
     2. 검증 세트를 떼어 내어 **평가하는 과정 여러 번** 반복 → 이 점수를 **평균**하여 최종 검증 점수
-        
-        ![3-폴드 교차 검증](image%201.png)
+        ![3-폴드 교차 검증](https://github.com/user-attachments/assets/8756129d-94cc-4a5e-88e3-ebce747061a3)
         
         3-폴드 교차 검증
         
