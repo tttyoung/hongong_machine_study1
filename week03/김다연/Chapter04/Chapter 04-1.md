@@ -8,13 +8,13 @@
     1. 이름은 회귀지만 **분류** 모델
     2. **선형 방정식** 학습
   
-        ![image.png](https://github.com/user-attachments/assets/e049901a-ee07-4df5-b3c8-d0369a57acc3)
+        ![image.png](https://github.com/user-attachments/assets/c1c2700e-d913-40ec-ae57-ee1130755b74)
         
         a, b, c, d, e는 가중치 or 계수 → 특성은 늘어났지만 선형 방정식
         
     3. z는 어떤 값도 가능하지만 확률이 되려면 0~1 사이 값이어야 함 → **시그모이드 함수(sigmoid function)** 사용
         
-        ![image.png](image%201.png)
+        ![image.png](https://github.com/user-attachments/assets/e049901a-ee07-4df5-b3c8-d0369a57acc3)
         
     4. 이진 분류일 때 : 0.5보다 크면 양성 클래스, 작으면 음성 클래스
     5. 규제 제어 매개변수 : **C**
@@ -27,12 +27,12 @@
         char_arr = np.array[['A', 'B', 'C', 'D', 'E'])
         print(char_arr[[True, False, True, False, False]]) # 이러면 A, C만 출력됨
         ```
-        
+
 4. 실습
     1. to_numpy() : 데이터프레임 → 넘파이로 변환
     2. predict_proba() : 클래스별 확률값
         
-        ![image.png](image%202.png)
+        ![image.png](https://github.com/user-attachments/assets/8d3e963c-6f47-458f-883b-7a650a443fa8)
         
     - 코드
         
