@@ -7,8 +7,8 @@
 2. **로지스틱 회귀 (logistic regression)**
     1. 이름은 회귀지만 **분류** 모델
     2. **선형 방정식** 학습
-        
-        ![a, b, c, d, e는 가중치 or 계수 → 특성은 늘어났지만 선형 방정식](image.png)
+  
+        ![image.png](https://github.com/user-attachments/assets/e049901a-ee07-4df5-b3c8-d0369a57acc3)
         
         a, b, c, d, e는 가중치 or 계수 → 특성은 늘어났지만 선형 방정식
         
