@@ -2,8 +2,7 @@
 
 1. **결정 트리 (Decision Tree)**
     1. 기본 틀
-        
-        ![image.png](image.png)
+        ![image.png](https://github.com/user-attachments/assets/30a4c1ab-4be8-41ac-bf85-0adc749e1936)
         
     2. **root node** : 맨 위의 노드 (부모 x)
     3. **leaf node** : 맨 아래 노드 (자식 x)
@@ -15,8 +14,7 @@
 1. **지니 불순도 (Gini impurity)**
     1. 데이터의 불순도 → 한 노드가 **얼마나 섞여 있는지**
     2. 수식
-        
-        ![image.png](image%201.png)
+        ![image.png](https://github.com/user-attachments/assets/9e38d8ff-4f9c-426f-90e6-bcca5d3fdc9b)
         
     3. **클래스가 하나**라면 지니 불순도 : 0 → **순수 노드**
     4. **정보 이득 (information gain)**
@@ -24,8 +22,7 @@
         2. 결정 트리 모델은 **정보 이득이 가능한 크도록** 트리 성장시킴
     5. **entropy 불순도**
         1. 수식
-            
-            ![image.png](image%202.png)
+            ![image.png](https://github.com/user-attachments/assets/92b56c90-7b0a-475f-a249-47f068a62bcf)
             
         2. 보통 두 불순도의 결과 차이는 크지 않음
 
