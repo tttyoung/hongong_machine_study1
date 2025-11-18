@@ -18,13 +18,15 @@
     2. 입력이 **양수일 경우 입력 통과**시킴 / **음수일 경우 0으로** 만듦
     3. **max(0, z)**
         
-        ![image.png](image.png)
+        ![image.png](https://github.com/user-attachments/assets/acc3c644-942f-4ade-8857-0ed5324c65b6)
+
         
 
 1. **옵티마이저 (optimizer)**
     1. 다양한 종류의 경사 하강법 알고리즘
         
-        ![image.png](image%201.png)
+        ![image.png](https://github.com/user-attachments/assets/718e3087-67f7-43c3-b192-7785058b4a73)
+
         
     2. 하이퍼파라미터 중 하나
     3. **모멘텀 최적화 (momentum optimization)**
