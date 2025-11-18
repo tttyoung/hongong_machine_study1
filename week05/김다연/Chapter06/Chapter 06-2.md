@@ -9,7 +9,8 @@
         3. 클러스터에 속한 샘플의 평균값으로 클러스터 중심 변경
         4. 클러스터 중심에 변화가 없을 때까지 반복
             
-            ![image.png](image.png)
+            ![image.png]("https://github.com/user-attachments/assets/7844a069-5ca1-4d89-a0be-608e91d2af86")
+
             
 
 1. **엘보우 (elbow)**
@@ -20,7 +21,8 @@
         3. 클러스터 개수를 늘려가면서 **이너셔의 변화를 관찰** → 최적의 클러스터 개수 찾음
         4. 그래프로 그리면 감소하는 **속도가 꺾이는 지점**이 있는데 이 지점부터는 클러스터에 잘 밀집된 정도가 크게 개선 x
             
-            ![image.png](image%201.png)
+            ![image.png](https://github.com/user-attachments/assets/6e3bb5dc-8b6d-4575-a4d3-3689956916c7)
+
             
 
 1. 실습
