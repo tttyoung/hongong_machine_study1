@@ -9,7 +9,7 @@
         3. 클러스터에 속한 샘플의 평균값으로 클러스터 중심 변경
         4. 클러스터 중심에 변화가 없을 때까지 반복
             
-            ![image.png]("https://github.com/user-attachments/assets/7844a069-5ca1-4d89-a0be-608e91d2af86")
+            ![image.png](https://github.com/user-attachments/assets/7844a069-5ca1-4d89-a0be-608e91d2af86)
 
             
 
