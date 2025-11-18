@@ -9,11 +9,13 @@
         2. 교차 검증을 수행하기에 훈련 시간 너무 오래 걸림
     5. 사진
         
-        ![image.png](image.png)
+        ![image.png](https://github.com/user-attachments/assets/625962c1-ec2f-4e6c-9a51-ef4e31354ee6)
+
         
     6. 구조도
         
-        ![image.png](image%201.png)
+        ![image.png](https://github.com/user-attachments/assets/f7064a6d-9974-451d-9821-845f59e26c44)
+
         
 
 1. **텐서플로 (TensorFlow)**
