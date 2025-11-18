@@ -3,13 +3,14 @@
 1. **검증 손실**
     1. 과대적합 / 과소적합 판단
         
-        ![현재 과대적합 상태](image.png)
+        ![현재 과대적합 상태](https://github.com/user-attachments/assets/45f599e2-7a11-44f1-9c34-06e6921b1cc7)
         
         현재 과대적합 상태
         
     2. Adam 옵티마이저 적용
         
-        ![과대적합 훨씬 줄어듦](image%201.png)
+        ![과대적합 훨씬 줄어듦](https://github.com/user-attachments/assets/7bc14251-49f0-4587-8ec3-db1b87169cc6)
+
         
         과대적합 훨씬 줄어듦
         
@@ -17,12 +18,14 @@
 1. **드롭아웃 (dropout)**
     1. 훈련 과정에서 층에 있는 **일부 뉴런을 랜덤하게 꺼서**(뉴런의 출력을 0으로 만들어서) **과대적합 방지** → 특정 뉴런에 과대하게 의존하는 것 방지
         
-        ![image.png](image%202.png)
+        ![image.png](https://github.com/user-attachments/assets/4b020011-e61b-4762-bd98-570348436d3e)
+
         
     2. 일부 뉴런의 출력을 0으로 만들지만 전체 출력 배열의 크기는 바꾸지 x
     3. **평가 및 예측 시 드롭아웃 적용 x**
         
-        ![과대적합 확연히 줆](image%203.png)
+        ![과대적합 확연히 줆](https://github.com/user-attachments/assets/64949edc-cdeb-4147-8235-8927ad80b564)
+
         
         과대적합 확연히 줆
         
