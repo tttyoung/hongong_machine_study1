@@ -9,7 +9,8 @@
 3. 클러스터에 속한 샘플의 평균값으로 클러스터 중심을 변경한다.
 4. 클러스터 중심의 변화가 없을 때까지 2번으로 돌아가 변경한다. 
 
-![image.png](image.png)
+<img width="456" height="141" alt="06-2-1" src="https://github.com/user-attachments/assets/de05300a-f6fa-4d1b-be2e-8480f4fb1fb0" />
+
 
 **centroid** (=cluster center) : k-mean 알고리즘이 만든 클러스터에 속한 샘플의 특성 평균값
 
@@ -21,7 +22,8 @@ k-mean 단점 : 클러스터 개수(k)를 사전에 지정할 수 없다.
 
 **elbow 방법** : 최적의 클러스터 개수를 정하는 방법 중 하나. 클러스터 개수에 따라 inertia 감소가 꺾이는 지점이 적절한 k값이 될 수 있다.
 
-![                                                                엘보우 방법](image%201.png)
+<img width="316" height="187" alt="06-2-2" src="https://github.com/user-attachments/assets/dd5f9383-1fce-4b8e-80ed-492a598c90f2" />
+
 
                                                                 엘보우 방법
 
