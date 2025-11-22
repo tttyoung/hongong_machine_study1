@@ -55,7 +55,8 @@ x-epoch , y-loss로 검증 세트 & 훈련 세트 손실 곡선을 그려보면
     ```
     
 
-![image.png](image.png)
+<img width="307" height="186" alt="image" src="https://github.com/user-attachments/assets/1579411c-352f-49b4-ae54-e6cb89d1350d" />
+
 
 train loss는 계속 감소하는 반면, validation loss는 어느 시점부터 증가하는 과대적합 모델이 되는 것을 확인할 수 있다.
 
@@ -66,7 +67,8 @@ train loss는 계속 감소하는 반면, validation loss는 어느 시점부터
     
     : 훈련 과정에서 층에 있는 일부 뉴런을 랜덤하게 꺼서 출력을 0으로 만드는 기법
     
-    ![image.png](image%201.png)
+    <img width="413" height="189" alt="image 1" src="https://github.com/user-attachments/assets/3e04cda7-9a2e-4f2c-98b6-f98b751f7a93" />
+
     
     드롭아웃 비율은 하이퍼파라미터로 직접 정해줘야함.
     
@@ -109,7 +111,8 @@ train loss는 계속 감소하는 반면, validation loss는 어느 시점부터
         ```
         
     
-    ![image.png](image%202.png)
+    <img width="301" height="195" alt="image 2" src="https://github.com/user-attachments/assets/e5efa857-e56b-4875-93b2-32f57551a180" />
+
     
     과대적합이 준 것을 확인할 수 있음.
     
