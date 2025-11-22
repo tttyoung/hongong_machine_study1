@@ -2,7 +2,8 @@
 
 성능을 높일려면 여러 층을 추가하면됨
 
-![image.png](image.png)
+<img width="393" height="240" alt="image" src="https://github.com/user-attachments/assets/4e4cb4e1-b16d-40b1-ab65-cb77b09c24da" />
+
 
 **은닉층** : 입력층과 출력층 사이에 있는 모든 층
 
@@ -38,7 +39,8 @@ Sequential 클래스에 앞서 만든 inputs, dense객체들 추가시키면 심
 
 기존의 시그모이드 함수
 
-![image.png](image%201.png)
+<img width="203" height="160" alt="image 1" src="https://github.com/user-attachments/assets/a35cd8c7-b4e3-4cf5-9160-a2b49f73558d" />
+
 
 → 오른쪽과 왼쪽 끝으로 갈수록 그래프가 누워있기 때문에 올바른 출력을 만드는데 신속하게 대응하지 못한다.
 
@@ -60,7 +62,8 @@ Sequential 클래스에 앞서 만든 inputs, dense객체들 추가시키면 심
 
 : 입력이 양수→입력 그대로 출력, 입력이 음수→ 0 출력
 
-![image.png](image%202.png)
+<img width="199" height="155" alt="image 2" src="https://github.com/user-attachments/assets/cc281bea-d6d1-42ab-8cae-59a0b14d3af4" />
+
 
 시그모이드 함수 대신 렐루 함수를 적용하면 성능이 조금 향상된다는 것을 알 수 있음.
 
@@ -70,7 +73,7 @@ Sequential 클래스에 앞서 만든 inputs, dense객체들 추가시키면 심
 
 다양한 종류의 경사 하강법 알고리즘을 제공하는 옵티마이저 또한 그 중 하나
 
-![image.png](image%203.png)
+<img width="346" height="266" alt="image 3" src="https://github.com/user-attachments/assets/6b9d2119-134e-418c-b0a9-69966ac0cb19" />
 
 1. 기본적인 SGD(확률적 경사 하강법) (이름만 SGD이고 미니배치를 사용함)
 2. momentum → 모멘텀 매개변수를 0보다 큰 값으로 지정해 사용
