@@ -58,22 +58,19 @@
 
 로지스틱 회귀 공식
 
-<img width="389" height="26" alt="image 1" src="https://github.com/user-attachments/assets/bfe197d8-591a-45d0-8cf9-fe498f76c866" />
-
+<img width="415" height="44" alt="image" src="https://github.com/user-attachments/assets/db79ca0f-2a71-40c9-b2c7-f9effdbb46d3" />
 
 선형 방정식
 
 패션 MNIST의 레이블에 맞게 변형하면
 
-<img width="394" height="32" alt="image 2" src="https://github.com/user-attachments/assets/f103de1a-a176-437e-8c54-0a228ea7697a" />
-
-
-<img width="248" height="192" alt="image 3" src="https://github.com/user-attachments/assets/89ee0cc7-821c-4839-8915-702ff52b34fb" />
-
+<img width="389" height="26" alt="image 1" src="https://github.com/user-attachments/assets/aa3e28b2-db82-49ee-8323-3b3d2cf7213e" />
+<img width="394" height="32" alt="image 2" src="https://github.com/user-attachments/assets/269651cb-ed78-426c-8f36-838459a9f3e8" />
 
 10개의 클래스에 대한 선형 방정식을 계산한 다음 소프트맥스 함수를 통과해 각 클래스에 대한 확률을 얻음.
 
-<img width="332" height="250" alt="image 4" src="https://github.com/user-attachments/assets/fa2ab04d-c049-417c-9f08-4410c4f94913" />
+<img width="248" height="192" alt="image 3" src="https://github.com/user-attachments/assets/47a2ae31-b9ad-4505-97fb-eef6a3eafd14" />
+
 
 
 ### 인공 신경망
@@ -86,7 +83,8 @@
 
 뉴런 : z값을 계산하는 단위
 
-<img width="330" height="206" alt="image 5" src="https://github.com/user-attachments/assets/de835f4d-40b2-4e69-a3be-2d21f4ae6f01" />
+<img width="332" height="250" alt="image 4" src="https://github.com/user-attachments/assets/5bb19c2c-984d-4ca8-bc8b-3e83811297b9" />
+
 
 
 **텐서플로** : 딥러닝 라이브러리. 
@@ -122,7 +120,8 @@
     ```
     
 
-<img width="415" height="44" alt="image" src="https://github.com/user-attachments/assets/d1c803a5-c77a-465d-b471-19f682416abb" />
+<img width="330" height="206" alt="image 5" src="https://github.com/user-attachments/assets/bc8ac350-e54d-410f-a539-93ec34acd230" />
+
 
 
 ### 인공 신경망으로 패션 아이템 분류
