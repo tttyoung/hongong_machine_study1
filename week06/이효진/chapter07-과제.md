@@ -27,7 +27,7 @@
 
 문제 : 훈련 내내 딱 맞는 하나의 학습률이라는게 거의 존재하지 않는다.
 
-1. **학습률 스케줄링** : 훈련이 진행될수록 학습률(한 번 업데이트할 때 가중치를 얼마나 크게 움직일지)을 자동 조절하는 기법
+2. **학습률 스케줄링** : 훈련이 진행될수록 학습률(한 번 업데이트할 때 가중치를 얼마나 크게 움직일지)을 자동 조절하는 기법
     
     역할 
     
@@ -35,7 +35,7 @@
     
     사용법
     
-    1. keras.optimizers.schedules.ExponentialDecay : 일정 비율(지수적)로 감소
+    (1). keras.optimizers.schedules.ExponentialDecay : 일정 비율(지수적)로 감소
         
         ```python
         Exponential = keras.optimizers.schedules.ExponentialDecay(
@@ -46,7 +46,7 @@
         optimizer = keras.optimizers.Adam(learning_rate=lr_schedule)
         ```
         
-    2. keras.callbacks.ReduceLROnPlateau : 정체 시 학습률 감소
+    (2). keras.callbacks.ReduceLROnPlateau : 정체 시 학습률 감소
         
         ```python
         lr_reducer = keras.callbacks.ReduceLROnPlateau(
@@ -58,7 +58,7 @@
         model.fit(..., callbacks=[lr_reducer])
         ```
         
-2. **데이터 증강** : 훈련 데이터에 랜덤 변형(회전, 이동, 뒤집기)을 적용해 데이터 양을 인위적으로 늘리는 기법
+3. **데이터 증강** : 훈련 데이터에 랜덤 변형(회전, 이동, 뒤집기)을 적용해 데이터 양을 인위적으로 늘리는 기법
     
     역할
     
@@ -66,7 +66,7 @@
     
     사용법
     
-    1. keras.preprocessing.image.ImageDataGenerator
+    (1). keras.preprocessing.image.ImageDataGenerator
         
         ```python
         
@@ -85,7 +85,7 @@
                   epochs=20)
         ```
         
-    2. keras.layers의 Augmentation Layer. 모델안에 층으로 바로 넣을 수 있음.
+    (2). keras.layers의 Augmentation Layer. 모델안에 층으로 바로 넣을 수 있음.
         
         ```cpp
         data_augmentation = keras.Sequential([
@@ -101,7 +101,7 @@
         ])
         ```
         
-3. **가중치 초기화** : 적절한 분포에서 가중치를 초기화
+4. **가중치 초기화** : 적절한 분포에서 가중치를 초기화
     
     역할
     
@@ -111,14 +111,14 @@
     
     사용법
     
-    1. He 초기화 ( 활성화 함수가 ReLU와 같을 때)
+    (1). He 초기화 ( 활성화 함수가 ReLU와 같을 때)
         
         ```python
         layers.Dense(128, activation='relu',
                      kernel_initializer='he_normal')
         ```
         
-    2. Xavier 초기화 (활성화 함수가 시그모이드와 같을 때)
+    (2). Xavier 초기화 (활성화 함수가 시그모이드와 같을 때)
         
         ```cpp
         layers.Dense(128, activation='tanh',
