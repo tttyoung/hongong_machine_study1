@@ -6,7 +6,7 @@
     3. 은닉 상태 만드는 법 : 입력, 이전 타임스텝의 은닉 상태를 가중치에 곱함 → 활성화 함수 통과 → 은닉 상태 만듦 (활성화 함수 : 시그모이드 함수)
     4. **셀 상태 (cell state)** : 다음 층으로 전달되지 않고 LSTM 셀에서 순환만 됨
         
-        ![image.png](image.png)
+        ![image.png](https://github.com/user-attachments/assets/99191af1-b099-4cc2-8308-ddd6ac50df86)
         
     5. **삭제 게이트** : 셀 상태에 있는 정보 제거 / **입력 게이트** : 새로운 정보를 셀 상태에 추가 / **출력 게이트** : 셀 상태가 다음 은닉 상태로 출력
 
@@ -14,7 +14,7 @@
     1. Gated Recurrent Unit
     2. 은닉 상태 하나만 포함
         
-        ![image.png](image%201.png)
+        ![image.png](https://github.com/user-attachments/assets/ad639bb2-b93c-49fc-976a-87e5da6f7872)
         
 
 1. 실습
