@@ -5,7 +5,8 @@
     2. 첫 번째 층의 출력을 두 번째 층의 입력으로
     3. 이때 inputs → InputLayer 클래스의 출력값
         
-        ![image.png](image.png)
+        ![image.png](https://github.com/user-attachments/assets/0b98b940-85dd-4e7e-9e17-5595248997a9)
+
         
 
 1. 실습
