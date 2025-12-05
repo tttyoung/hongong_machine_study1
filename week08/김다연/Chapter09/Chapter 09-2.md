@@ -6,14 +6,16 @@
     3. **말뭉치 (corpus)** : 자연어 처리 분야에서의 훈련 데이터
     4. 텍스트 자체를 신경망에 전달 x → 컴퓨터에서 처리하는 것은 어떤 숫자 데이터
         
-        ![image.png](image.png)
+        ![image.png](https://github.com/user-attachments/assets/851adfd4-369a-4cb2-a83d-854bbb1408bb)
+
         
     5. **토큰 (token)** : 모두 소문자로, 구둣점 삭제, 공백 기준 분리한 단어
     6. 어휘 사전 : 훈련 세트에서 고유한 단어를 뽑아 만든 목록
 
 1. **단어 임베딩 (word embedding)** : 각 단어를 고정된 크기의 실수 벡터로 바꿔줌
     
-    ![image.png](image%201.png)
+    ![image.png](https://github.com/user-attachments/assets/1551996b-6c9f-4aa0-ba30-b71295a2a687)
+
     
     1. 입력을 정수 데이터로 받음 → **메모리 효율적 사용**
 
