@@ -10,7 +10,8 @@
 1. **순환 신경망 (recurrent neural network)**
     1. 완전 연결 신경망에 이전 데이터의 처리 흐름을 순환하는 **고리 하나만** 추가하면 됨
         
-        ![image.png](image.png)
+        ![image.png](https://github.com/user-attachments/assets/6261ea29-537c-4b1e-9a4c-7e7cb3ba7748)
+
         
     2. 뉴런의 **출력이 다시 자기 자신**에게 전달됨
     3. 이전 샘플에 대한 기억을 가지고 있음 → 타임스텝이 **오래될수록 순환되는 정보는 희미해짐**
@@ -20,13 +21,15 @@
         2. **은닉 상태 (hidden state) : 셀의 출력**
     6. 은닉층의 활성화 함수 : **tanh 많이 사용** → -1~1 사이의 범위 가짐
         
-        ![image.png](image%201.png)
+        ![image.png](https://github.com/user-attachments/assets/00f283f3-69ff-4ffa-86c0-1582948ba85d)
+
         
 
 1. 셀의 가중치와 입출력
     1. 가중치
         
-        ![이때의 가중치 wb : 3 x 3 = 9](image%202.png)
+        ![이때의 가중치 wb : 3 x 3 = 9](https://github.com/user-attachments/assets/e943a885-f80d-4cda-b717-80977031b693)
+
         
         이때의 가중치 wb : 3 x 3 = 9
         
@@ -34,11 +37,12 @@
         1. wx + wb + 절편 = 12 + 9 + 3 = 24
     3. 2개의 순환층을 쌓은 경우
         
-        ![image.png](image%203.png)
+        ![image.png]([image%203.png](https://github.com/user-attachments/assets/e32153ef-6d30-4b3c-949e-8f03e271651f))
+
         
     4. 출력층의 구성
         1. 마지막에 밀집층
         2. 다중 분류 : 출력층에 **클래스 개수만큼 뉴런** 두고 **소프트맥스 활성화 함수** 사용
         3. 이중 분류 : **하나의 뉴런**을 두고 **시그모이드 활성화 함수** 사용
             
-            ![image.png](image%204.png)
+            ![image.png](https://github.com/user-attachments/assets/a86fae26-05a5-44b0-9f1a-40e04551d36d)
